@@ -238,7 +238,7 @@ ul#nav li.current a { color: #F06000; }
 #resume {
    background: #fff;
    padding-top: 90px;
-   padding-bottom: 72px;
+   padding-bottom: 0px;
    overflow: hidden;
 }
 
@@ -277,6 +277,106 @@ ul#nav li.current a { color: #F06000; }
    margin-left: 5px;
 }
 #resume .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+/* ------------------------------------------------------------------ */
+/* d. skills Section
+/* ------------------------------------------------------------------ */
+
+#skills {
+   background: #11ABB0;
+   padding-top: 90px;
+   padding-bottom: 0px;
+   overflow: hidden;
+}
+
+#skills a, #skills a:visited  { color: #11ABB0; }
+#skills a:hover, #skills a:focus { color: #313131; }
+
+#skills h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#skills h1 span {
+   border-bottom: 3px solid #fff;
+   padding-bottom: 6px;
+}
+#skills h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#skills .header-col { padding-top: 9px; }
+#skills .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#skills .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#skills .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#skills .date {
+   font: 15px/24px 'opensans-regular', sans-serif;
+   margin-top: 6px;
+}
+
+/* ------------------------------------------------------------------ */
+/* d. projet Section
+/* ------------------------------------------------------------------ */
+
+#projet {
+   background: #fff;
+   padding-top: 60px;
+   padding-bottom: 72px;
+   overflow: hidden;
+}
+
+#projet a, #projet a:visited  { color: #11ABB0; }
+#projet a:hover, #projet a:focus { color: #313131; }
+
+#projet h1 {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+}
+#projet h1 span {
+   border-bottom: 3px solid #11ABB0;
+   padding-bottom: 0px;
+}
+#projet h3 {
+   font: 25px/30px 'opensans-bold', sans-serif;
+}
+
+#projet .header-col { padding-top: 9px; }
+#projet .main-col { padding-right: 10%; }
+
+.education, .work {
+   margin-bottom: 48px;
+   padding-bottom: 24px;
+   border-bottom: 1px solid #E8E8E8;
+}
+#projet .info {
+   font: 16px/24px 'librebaskerville-italic', serif;
+   color: #6E7881;
+   margin-bottom: 18px;
+   margin-top: 9px;
+}
+#projet .info span {
+   margin-right: 5px;
+   margin-left: 5px;
+}
+#projet .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
@@ -325,83 +425,149 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
-.wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
-}
-.css {
+.c {
   	width: 90%;
-  	-moz-animation: css 2s ease;
-  	-webkit-animation: css 2s ease;
+  	-moz-animation: c 2s ease;
+  	-webkit-animation: c 2s ease;
+}
+.java {
+  	width: 85%;
+  	-moz-animation: java 2s ease;
+  	-webkit-animation: java 2s ease;
 }
 .html5 {
-  	width: 80%;
+  	width: 70%;
   	-moz-animation: html5 2s ease;
   	-webkit-animation: html5 2s ease;
 }
-.jquery {
-  	width: 50%;
-  	-moz-animation: jquery 2s ease;
-  	-webkit-animation: jquery 2s ease;
+.css {
+  	width: 60%;
+  	-moz-animation: css 2s ease;
+  	-webkit-animation: css 2s ease;
+}
+.php {
+  	width: 80%;
+  	-moz-animation: php 2s ease;
+  	-webkit-animation: php 2s ease;
+}
+.sql {
+  	width: 90%;
+  	-moz-animation: sql 2s ease;
+  	-webkit-animation: sql 2s ease;
 }
 
-@-moz-keyframes photoshop {
-  0%   { width: 0px;  }
-  100% { width: 60%;  }
+.javascript {
+    width: 60%;
+    -moz-animation: javascript 2s ease;
+    -webkit-animation: javascript 2s ease;
 }
-@-moz-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
+
+.jquery {
+    width: 50%;
+    -moz-animation: jquery 2s ease;
+    -webkit-animation: jquery 2s ease;
 }
-@-moz-keyframes wordpress {
-  0%   { width: 0px;  }
-  100% { width: 50%;  }
+
+.python {
+    width: 65%;
+    -moz-animation: python 2s ease;
+    -webkit-animation: python 2s ease;
 }
-@-moz-keyframes css {
+
+.android {
+    width: 50%;
+    -moz-animation: android 2s ease;
+    -webkit-animation: android 2s ease;
+}
+
+@-moz-keyframes c {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
+@-moz-keyframes java {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
 @-moz-keyframes html5 {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-moz-keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-moz-keyframes php {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
+@-moz-keyframes sql {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+
+@-moz-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+
 @-moz-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
 
-@-webkit-keyframes photoshop {
+@-moz-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 60%;  }
+  100% { width: 65%;  }
 }
-@-webkit-keyframes illustrator {
-  0%   { width: 0px;  }
-  100% { width: 55%;  }
-}
-@-webkit-keyframes wordpress {
+
+@-moz-keyframes android {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }
-@-webkit-keyframes css {
+
+/* --------------------------------------- */
+
+@-webkit-keyframes c {
   0%   { width: 0px;  }
   100% { width: 90%;  }
 }
+@-webkit-keyframes java {
+  0%   { width: 0px;  }
+  100% { width: 85%;  }
+}
 @-webkit-keyframes html5 {
+  0%   { width: 0px;  }
+  100% { width: 70%;  }
+}
+@-webkit-keyframes css {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+@-webkit-keyframes php {
   0%   { width: 0px;  }
   100% { width: 80%;  }
 }
+@-webkit-keyframes sql {
+  0%   { width: 0px;  }
+  100% { width: 90%;  }
+}
+
+@-webkit-keyframes javascript {
+  0%   { width: 0px;  }
+  100% { width: 60%;  }
+}
+
 @-webkit-keyframes jquery {
+  0%   { width: 0px;  }
+  100% { width: 50%;  }
+}
+
+@-webkit-keyframes python {
+  0%   { width: 0px;  }
+  100% { width: 65%;  }
+}
+
+@-webkit-keyframes android {
   0%   { width: 0px;  }
   100% { width: 50%;  }
 }

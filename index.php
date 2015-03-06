@@ -46,8 +46,9 @@
          <ul id="nav" class="nav">
             <li class="current"><a class="smoothscroll" href="#home">Accueil</a></li>
             <li><a class="smoothscroll" href="#about">À propos</a></li>
-	         <li><a class="smoothscroll" href="#resume">CV</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Projets réalisés</a></li>
+	         <li><a class="smoothscroll" href="#resume">Formation</a></li>
+            <li><a class="smoothscroll" href="#skills">Compétences</a></li>
+            <li><a class="smoothscroll" href="#projet">Projets réalisés</a></li>
             <li><a class="smoothscroll" href="#contact">Contact</a></li>
          </ul> <!-- end #nav -->
 
@@ -108,7 +109,8 @@
 
                <div class="columns download">
                   <p>
-                     <a href="file/cv.pdf" target="_blank" class="button"><i class="fa fa-download"></i>Consulter mon CV</a>
+                     <a href="file/cv.pdf" target="_blank" class="button">Consulter mon CV</a>
+                     <a href="file/cv.pdf" download="LECUYER_Julien_CV" class="button"><i class="fa fa-download"></i>Télécharger mon CV</a>
                   </p>
                </div>
 
@@ -159,7 +161,26 @@
                <div class="twelve columns">
 
                   <h3>IUT de Lannion</h3>
-                  <p class="info">DUT Informatique <span>&bull;</span> <em class="date"> </em></p>
+                  <p class="info">DUT Informatique <span>&bull;</span> <em class="date"> 2014 </em></p>
+
+                  <p>
+                   Algorithmique et programmation (HTML/CSS, PHP (framework CodeIgniter), SQL, C, Java, Python, Scilab, Bash<br>
+                   Analyse, méthodes de modélisation (Merise, UML, Modèle Relationnel<br>
+                   Gestion de projet (diagramme de Gantt, MS Project, Visual Basic (maquettage)<br>
+                   Droit des Technologies de l’Information et de la Communication<br>
+                   Communication et Anglais
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Lycée Julliot de la Morandière</h3>
+                  <p class="info">Baccalauréat Scientifique Option Sciences de l'ingénieur <span>&bull;</span> <em class="date"> 2012 </em></p>
 
                   <p>
                    Algorithmique et programmation (HTML/CSS, PHP (framework CodeIgniter), SQL, C, Java, Python, Scilab, Bash<br>
@@ -176,30 +197,30 @@
          </div> <!-- main-col end -->
 
       </div> <!-- End Education -->
-
-<div class="row skill">
+   </section>
+   <section id="skills">
+      <div   class="row skills">
 
          <div class="three columns header-col">
-            <h1><span>Skills</span></h1>
+            <h1><span>Compétences</span></h1>
          </div>
 
          <div class="nine columns main-col">
 
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-            voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione
-            voluptatem sequi nesciunt.
-            </p>
-
             <div class="bars">
 
                <ul class="skills">
-                  <li><span class="bar-expand photoshop"></span><em>Photoshop</em></li>
-                  <li><span class="bar-expand illustrator"></span><em>Illustrator</em></li>
-                  <li><span class="bar-expand wordpress"></span><em>Wordpress</em></li>
-                  <li><span class="bar-expand css"></span><em>CSS</em></li>
+                  <li><span class="bar-expand c"></span><em>C</em></li>
+                  <li><span class="bar-expand java"></span><em>Java</em></li>
                   <li><span class="bar-expand html5"></span><em>HTML5</em></li>
-                  <li><span class="bar-expand jquery"></span><em>jQuery</em></li>
+                  <li><span class="bar-expand css"></span><em>CSS</em></li>
+                  <li><span class="bar-expand php"></span><em>PHP</em></li>
+                  <li><span class="bar-expand sql"></span><em>SQL</em></li>
+                  <li><span class="bar-expand javascript"></span><em>JavaScript</em></li>
+                  <li><span class="bar-expand jquery"></span><em>JQuery</em></li>
+                  <li><span class="bar-expand python"></span><em>Python</em></li>
+                  <li><span class="bar-expand android"></span><em>JDK Android</em></li>
+                  
                </ul>
 
             </div><!-- end skill-bars -->
@@ -207,11 +228,13 @@
          </div> <!-- main-col end -->
 
       </div> <!-- End skills -->
+
    </section>
-   <section id="resume">
+   
+   <section id="projet">
       <!-- Work
       ----------------------------------------------- -->
-      <div class="row work">
+      <div class="row skills">
 
          <div class="three columns header-col">
             <h1><span>Projets réalisés</span></h1>
@@ -227,10 +250,7 @@
                   <p class="info">Projet L3 IUP Brest <span>&bull;</span> <em class="date">Novembre 2014 - Janvier 2015</em></p>
 
                   <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
+                  <strong>Projet</strong> en équipe de deux étudiants consistant à réaliser une <strong>application android</strong> où l'utilisateur puisse consulter des <strong>données météorologiques</strong>. Le but étant de développer une application <strong>intuitive</strong> grâce à une phase d'analyse. L'application a été développée sur <strong>Eclipse</strong>, en <strong>Java</strong> avec le <strong>SDK Android</strong>. Les données à afficher ont été récupérées grâce à une <strong>API (OpenWeatherMap)</strong>.
                   </p>
 
                </div>
@@ -245,11 +265,11 @@
                   <p class="info">Stage société <strong>SYSTRANS (29)</strong> <span>&bull;</span> <em class="date">Avril 2014 - Juin 2014</em></p>
 
                   <p>
-                  Stage de 10 semaines au sein de
-                  l’entreprise Systrans (29).
-                  Développement d’une application
-                  web Oracle APEX 4.2 avec PL/SQL,
-                  HTML, JavaScript, SFTP. <br>Le but de l'application est d'améliorer le contact entre les entreprises de transport de marchandise et leurs clients.
+                  <strong>Stage de 10 semaines</strong> au sein de
+                  l’entreprise <strong>Systrans (29)</strong>.
+                  Développement d’une <strong>application
+                  web Oracle APEX 4.2</strong> avec <strong>PL/SQL,
+                  HTML, JavaScript et SFTP</strong>. <br>Le <strong>but</strong> de l'application est d'<strong>améliorer le contact</strong> entre les <strong>entreprises de transport</strong> de marchandises et <strong>leurs clients</strong>.
                   </p>
                   <div class="columns portfolio-item">
                      <div class="item-wrap">
@@ -279,10 +299,10 @@
                   <p class="info">Projet société <strong>VOXYGEN (22)</strong> <span>&bull;</span> <em class="date">Octobre 2013 - Mars 2014</em></p>
 
                   <p>
-                  Création d’une application <i>Pybossa </i>
-                  avec les langages Python, Javascript,
-                  JQuery, HTML5 et CSS3 pour l’entreprise
-                  Voxygen (Pleumeur-Bodou, 22) visant à aider la société Voxygen à améliorer la synthèse vocale.
+                  Création d’une <strong>application <i>Pybossa </i></strong> en équipe de trois.
+                  Utilisation des langages <strong>Python, Javascript,
+                  JQuery, HTML5 et CSS3</strong>, ainsi que l'appel à un <strong>webService </strong>pour l'utilisation de la <strong>synthèse vocale</strong>. L'application était destinée à l’entreprise
+                  <strong>Voxygen</strong> (Pleumeur-Bodou, 22). Elle a été crée dans le <strong>but</strong> d'aider la société Voxygen à <strong>améliorer sa synthèse vocale</strong>.
                   </p>
 
                   <div class="columns portfolio-item">
@@ -349,145 +369,12 @@
 
 	      </div><!-- modal-02 End -->
 
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Judah</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
-
-         <div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Farmer Boy</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-05 End -->
-
-         <div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Girl</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-06 End -->
-
-         <div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Origami</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-07 End -->
-
-         <div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Retrocam</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-
       </div> <!-- row End -->
 
    </section> <!-- Portfolio Section End-->
 
 
-   <!-- Call-To-Action Section
-   ================================================== -->
-   <section id="call-to-action">
-
-      <div class="row">
-
-         <div class="two columns header-col">
-
-            <h1><span>Get Hosting.</span></h1>
-
-         </div>
-
-         <div class="seven columns">
-
-            <h2><a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT">Host This Template on Dreamhost.</a></h2>
-            <p>Looking for an awesome and reliable webhosting? Try <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT"><span>DreamHost</span></a>.
-					Get <span>$50 off</span> when you sign up with the promocode <span>STYLESHOUT</span>. 
-					<!-- Simply type	the promocode in the box labeled “Promo Code” when placing your order. --></p>
-
-         </div>
-
-         <div class="three columns action">
-
-            <a href="http://www.dreamhost.com/r.cgi?287326|STYLESHOUT" class="button">Sign Up Now</a>
-
-         </div>
-
-      </div>
-
-   </section> <!-- Call-To-Action Section End-->
-
+   
 
    <!-- Testimonials Section
    ================================================== -->
@@ -499,39 +386,13 @@
 
             <div class="two columns header-col">
 
-               <h1><span>Client Testimonials</span></h1>
+              <br><br><br><br>
 
             </div>
 
             <div class="ten columns flex-container">
 
-               <div class="flexslider">
-
-                  <ul class="slides">
-
-                     <li>
-                        <blockquote>
-                           <p>Your work is going to fill a large part of your life, and the only way to be truly satisfied is
-                           to do what you believe is great work. And the only way to do great work is to love what you do.
-                           If you haven't found it yet, keep looking. Don't settle. As with all matters of the heart, you'll know when you find it.
-                           </p>
-                           <cite>Steve Jobs</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                     <li>
-                        <blockquote>
-                           <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                           Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                           nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                           </p>
-                           <cite>Mr. Adobe</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                  </ul>
-
-               </div> <!-- div.flexslider ends -->
+               
 
             </div> <!-- div.flex-container ends -->
 
@@ -550,16 +411,13 @@
 
             <div class="two columns header-col">
 
-               <h1><span>Get In Touch.</span></h1>
+               <h1><span>Contact</span></h1>
 
             </div>
 
             <div class="ten columns">
 
-                  <p class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                  eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam
-                  voluptatem quia voluptas sit aspernatur aut odit aut fugit.
-                  </p>
+                  
 
             </div>
 
@@ -570,31 +428,31 @@
             <div class="eight columns">
 
                <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
+               <form method="post" id="contact" action="index.php" name="contact">
 					<fieldset>
 
                   <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
+						   <label for="contactName">Nom <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="nom">
                   </div>
 
                   <div>
 						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+						   <input type="text" value="" size="35" id="contactEmail" name="email">
                   </div>
 
                   <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+						   <label for="contactSubject">Objet</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="objet">
                   </div>
 
                   <div>
                      <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                     <textarea cols="50" rows="15" id="contactMessage" name="message"></textarea>
                   </div>
 
                   <div>
-                     <button class="submit">Submit</button>
+                     <button type="submit" name="envoi">Envoyer</button>
                      <span id="image-loader">
                         <img alt="" src="images/loader.gif">
                      </span>
@@ -604,10 +462,10 @@
 				   </form> <!-- Form End -->
 
                <!-- contact-warning -->
-               <div id="message-warning"> Error boy</div>
+               <div id="message-warning"> Erreur</div>
                <!-- contact-success -->
 				   <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
+                  <i class="fa fa-check"></i>Votre message a bien été envoyé, merci !<br>
 				   </div>
 
             </div>
@@ -617,41 +475,17 @@
 
                <div class="widget widget_contact">
 
-					   <h4>Address and Phone</h4>
+					   <h4>Adresse et téléphone</h4>
 					   <p class="address">
-						   Jonathan Doe<br>
-						   1600 Amphitheatre Parkway <br>
-						   Mountain View, CA 94043 US<br>
-						   <span>(123) 456-7890</span>
+						   Julien Lécuyer<br>
+						   46 Rue Paul Masson <br>
+						   Brest, FR<br>
+						   <span>+33 7 60 06 54 07</span>
 					   </p>
 
 				   </div>
 
-               <div class="widget widget_tweets">
-
-                  <h4 class="widget-title">Latest Tweets</h4>
-
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
-
-		         </div>
-
+              
             </aside>
 
       </div>
@@ -667,19 +501,11 @@
 
          <div class="twelve columns">
 
-            <ul class="social-links">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
-            </ul>
+            
 
             <ul class="copyright">
-               <li>&copy; Copyright 2014 CeeVee</li>
-               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
+               <li>&copy; Copyright 2015 Julien Lécuyer</li>
+               
             </ul>
 
          </div>
@@ -705,3 +531,117 @@
 </body>
 
 </html>
+
+
+   <?php
+    /*
+    ********************************************************************************************
+    CONFIGURATION
+    ********************************************************************************************
+    */
+    // destinataire est votre adresse mail. Pour envoyer à plusieurs à la fois, séparez-les par une virgule
+    $destinataire = 'lecuyer.ju@gmail.com';
+     
+    // copie ? (envoie une copie au visiteur)
+    $copie = 'oui'; // 'oui' ou 'non'
+     
+    // Messages de confirmation du mail
+    $message_envoye = "Votre message m'est bien parvenu !";
+    $message_non_envoye = "L'envoi du mail a échoué, veuillez réessayer SVP.";
+     
+    // Messages d'erreur du formulaire
+    $message_erreur_formulaire = "Vous devez d'abord <a href=\"contact.html\">envoyer le formulaire</a>.";
+    $message_formulaire_invalide = "Vérifiez que tous les champs soient bien remplis et que l'email soit sans erreur.";
+     
+    /*
+    ********************************************************************************************
+    FIN DE LA CONFIGURATION
+    ********************************************************************************************
+    */
+     
+    // on teste si le formulaire a été soumis
+    if (!isset($_POST['envoi']))
+    {
+    // formulaire non envoyé
+    echo '<p>'.$message_erreur_formulaire.'</p>'."\n";
+    }
+    else
+    {
+    /*
+    * cette fonction sert à nettoyer et enregistrer un texte
+    */
+    function Rec($text)
+    {
+    $text = htmlspecialchars(trim($text), ENT_QUOTES);
+    if (1 === get_magic_quotes_gpc())
+    {
+    $text = stripslashes($text);
+    }
+     
+    $text = nl2br($text);
+    return $text;
+    };
+     
+    /*
+    * Cette fonction sert à vérifier la syntaxe d'un email
+    */
+    function IsEmail($email)
+    {
+    $value = preg_match('/^(?:[\w\!\#\$\%\&\'\*\+\-\/\=\?\^\`\{\|\}\~]+\.)*[\w\!\#\$\%\&\'\*\+\-\/\=\?\^\`\{\|\}\~]+@(?:(?:(?:[a-zA-Z0-9_](?:[a-zA-Z0-9_\-](?!\.)){0,61}[a-zA-Z0-9_-]?\.)+[a-zA-Z0-9_](?:[a-zA-Z0-9_\-](?!$)){0,61}[a-zA-Z0-9_]?)|(?:\[(?:(?:[01]?\d{1,2}|2[0-4]\d|25[0-5])\.){3}(?:[01]?\d{1,2}|2[0-4]\d|25[0-5])\]))$/', $email);
+    return (($value === 0) || ($value === false)) ? false : true;
+    }
+     
+    // formulaire envoyé, on récupère tous les champs.
+    $nom = (isset($_POST['nom'])) ? Rec($_POST['nom']) : '';
+    $email = (isset($_POST['email'])) ? Rec($_POST['email']) : '';
+    $objet = (isset($_POST['objet'])) ? Rec($_POST['objet']) : '';
+    $message = (isset($_POST['message'])) ? Rec($_POST['message']) : '';
+     
+    // On va vérifier les variables et l'email ...
+    $email = (IsEmail($email)) ? $email : ''; // soit l'email est vide si erroné, soit il vaut l'email entré
+     
+    if (($nom != '') && ($email != '') && ($objet != '') && ($message != ''))
+    {
+    // les 4 variables sont remplies, on génère puis envoie le mail
+    $headers = 'MIME-Version: 1.0' . "\r\n";
+    $headers .= 'From:'.$nom.' <'.$email.'>' . "\r\n" .
+    'Reply-To:'.$email. "\r\n" .
+    'X-Mailer:PHP/'.phpversion();
+     
+    // envoyer une copie au visiteur ?
+    if ($copie == 'oui')
+    {
+    $cible = $destinataire.','.$email;
+    }
+    else
+    {
+    $cible = $destinataire;
+    };
+     
+    // Remplacement de certains caractères spéciaux
+    $message = str_replace("&#039;","'",$message);
+    $message = str_replace("&#8217;","'",$message);
+    $message = str_replace("&quot;",'"',$message);
+    $message = str_replace('<br>','',$message);
+    $message = str_replace('<br />','',$message);
+    $message = str_replace("&lt;","<",$message);
+    $message = str_replace("&gt;",">",$message);
+    $message = str_replace("&amp;","&",$message);
+     
+    // Envoi du mail
+    if (mail($cible, $objet, $message, $headers))
+    {
+    echo '<p>'.$message_envoye.'</p>'."\n";
+    }
+    else
+    {
+    echo '<p>'.$message_non_envoye.'</p>'."\n";
+    };
+    }
+    else
+    {
+    // une des 3 variables (ou plus) est vide ...
+    echo '<p>'.$message_formulaire_invalide.' <a href="contact.html">Retour au formulaire</a></p>'."\n";
+    };
+    }; // fin du if (!isset($_POST['envoi']))
+    ?>
