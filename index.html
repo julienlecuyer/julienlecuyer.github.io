@@ -250,7 +250,7 @@
                   <p class="info">Projet L3 IUP Brest <span>&bull;</span> <em class="date">Novembre 2014 - Janvier 2015</em></p>
 
                   <p>
-                  <strong>Projet</strong> en équipe de deux étudiants consistant à réaliser une <strong>application android</strong> où l'utilisateur puisse consulter des <strong>données météorologiques</strong>. Le but étant de développer une application <strong>intuitive</strong> grâce à une phase d'analyse. L'application a été développée sur <strong>Eclipse</strong>, en <strong>Java</strong> avec le <strong>SDK Android</strong>. Les données à afficher ont été récupérées grâce à une <strong>API (OpenWeatherMap)</strong>.
+                  <strong>Projet</strong> en équipe de deux étudiants consistant à réaliser une <strong>application android</strong> où l'utilisateur puisse consulter des <strong>données météorologiques</strong>. Le but était de développer une application <strong>intuitive</strong> grâce à une phase d'analyse. L'application a été développée sur <strong>Eclipse</strong>, en <strong>Java</strong> avec le <strong>SDK Android</strong>. Les données à afficher ont été récupérées grâce à une <strong>API (OpenWeatherMap)</strong>.
                   </p>
 
                </div>
@@ -311,7 +311,7 @@
                   Création d’une <strong>application <i>Pybossa </i></strong> en équipe de trois.
                   Utilisation des langages <strong>Python, Javascript,
                   JQuery, HTML5 et CSS3</strong>, ainsi que l'appel à un <strong>webService </strong>pour l'utilisation de la <strong>synthèse vocale</strong>. L'application était destinée à l’entreprise
-                  <strong>Voxygen</strong> (Pleumeur-Bodou, 22). Elle a été crée dans le <strong>but</strong> d'aider la société Voxygen à <strong>améliorer sa synthèse vocale</strong>.
+                  <strong>Voxygen</strong> (Pleumeur-Bodou, 22). Elle a été créée dans le <strong>but</strong> d'aider la société Voxygen à <strong>améliorer sa synthèse vocale</strong>.
                   </p>
 
                   <div class="columns portfolio-item">
@@ -464,7 +464,7 @@
                   </div>
 
                   <div>
-                     <button id="mailbutton" class="submit" onClick="this.form.reset();">Envoyer</button>
+                     <button id="mailbutton" class="submit">Envoyer</button>
                      
                         
                      
@@ -573,6 +573,7 @@ $("#mailbutton").click(function() {
 });
 setTimeout(function(){
    document.getElementById("confirmation").style.display="block";
+   document.getElementById("contactForm").reset();
 
 }, 1000);
 
