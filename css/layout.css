@@ -179,7 +179,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #F06000; }
+ul#nav li.current a { color: #11ABB0; }
 
 
 /* ------------------------------------------------------------------ */
@@ -286,7 +286,9 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #skills {
-   background: #11ABB0;
+   background: #161415 url(../images/wallpaper1.jpg) no-repeat top center;
+   background-size: cover !important;
+  -webkit-background-size: cover !important;
    padding-top: 90px;
    padding-bottom: 0px;
    overflow: hidden;
